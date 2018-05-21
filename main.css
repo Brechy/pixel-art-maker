@@ -1,15 +1,24 @@
+h2 {
+    font-family: monospace;
+    font-size: 50px;
+    font-weight:normal;
+    text-align: center;
+}
+
 #art {
     display: table;
     border-spacing: 1px;
     background-color: black;
-    border: 3px solid black;
+    border: 8px solid black;
+    border-radius: 15px;
+    margin: 0 auto;
 }
 
 .pixel {
     display: table-cell;
     background-color: white;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .pen {
@@ -17,5 +26,11 @@
     width: 40px;
     height: 40px;
     border: 2px solid black;
+    margin-top: 20px;
+}
+
+#palette {
+    margin-left: auto;
+    margin-right: auto;
 }
 
